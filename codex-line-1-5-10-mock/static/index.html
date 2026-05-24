@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日本中学智能选校匹配原型</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="control-panel" aria-label="学生画像输入">
+        <div class="brand-row">
+          <div>
+            <p class="eyebrow">Mock Prototype</p>
+            <h1>智能选校与日程匹配</h1>
+          </div>
+          <button class="icon-button" id="shareButton" type="button" title="分享链接">↗</button>
+        </div>
+
+        <form id="studentForm" class="form-grid">
+          <label class="field">
+            <span>孩子当前偏差值</span>
+            <div class="range-row">
+              <input id="hensachi" name="hensachi" type="range" min="45" max="78" value="62" />
+              <strong id="hensachiValue">62</strong>
+            </div>
+          </label>
+
+          <label class="field">
+            <span>家里地址</span>
+            <input id="homeAddress" name="homeAddress" type="text" value="越谷レイクタウン" placeholder="例：越谷レイクタウン、北千住、浦和" />
+          </label>
+
+          <div class="field">
+            <span>核心需求标签</span>
+            <div class="chip-grid" id="tagOptions"></div>
+          </div>
+
+          <div class="field">
+            <span>期望学校类型</span>
+            <div class="segmented">
+              <label><input type="radio" name="schoolType" value="不限" checked />不限</label>
+              <label><input type="radio" name="schoolType" value="共学" />共学</label>
+              <label><input type="radio" name="schoolType" value="女子校" />女子校</label>
+              <label><input type="radio" name="schoolType" value="男子校" />男子校</label>
+            </div>
+          </div>
+
+          <div class="field">
+            <span>考试日期过滤</span>
+            <div class="chip-grid compact" id="examDateOptions"></div>
+          </div>
+        </form>
+
+        <div class="hint-box">
+          <strong>说明</strong>
+          <span>当前为 Mock 数据与模拟通勤时间。入試回次別偏差値与日程可用你的表格替换。</span>
+        </div>
+
+        <section class="plan-panel" aria-label="受验日程计划">
+          <div class="plan-head">
+            <div>
+              <p class="eyebrow">Application Plan</p>
+              <h2>併願カレンダー</h2>
+            </div>
+            <div class="summary-pill" id="planSummary">0 件</div>
+          </div>
+          <button class="secondary-button full-width" id="copyPlanButton" type="button">复制日程</button>
+          <div id="conflictBox" class="conflict-box is-ok">まだ日程は選択されていません。</div>
+          <div id="selectedPlan" class="selected-plan"></div>
+        </section>
+      </section>
+
+      <section class="results-panel" aria-label="学校匹配结果">
+        <div class="toolbar">
+          <div>
+            <p class="eyebrow">Ranked by Matching Score</p>
+            <h2>推荐排序</h2>
+          </div>
+          <div class="toolbar-actions">
+            <button class="secondary-button" id="refreshButton" type="button">更新</button>
+            <div class="summary-pill" id="resultSummary">计算中</div>
+          </div>
+        </div>
+
+        <section id="refreshReport" class="refresh-report" hidden></section>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>排名</th>
+                <th>学校</th>
+                <th>偏差值</th>
+                <th>类型</th>
+                <th>通勤</th>
+                <th>匹配度</th>
+              </tr>
+            </thead>
+            <tbody id="resultTable"></tbody>
+          </table>
+        </div>
+
+        <div id="cards" class="cards"></div>
+      </section>
+    </main>
+
+    <template id="tagTemplate">
+      <label class="chip">
+        <input type="checkbox" />
+        <span></span>
+      </label>
+    </template>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

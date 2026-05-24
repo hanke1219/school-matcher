@@ -1,0 +1,29 @@
+services:
+  school-matcher:
+    image: ghcr.io/hanke1219/school-matcher:latest
+    container_name: school-matcher
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      REFRESH_CACHE_PATH: /data/refresh_cache.json
+      BASIC_AUTH_USERNAME: ${BASIC_AUTH_USERNAME}
+      BASIC_AUTH_PASSWORD: ${BASIC_AUTH_PASSWORD}
+    volumes:
+      - school-matcher-data:/data
+    labels:
+      com.centurylinklabs.watchtower.enable: "true"
+
+  watchtower:
+    image: containrrr/watchtower:latest
+    container_name: school-matcher-watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      WATCHTOWER_LABEL_ENABLE: "true"
+      WATCHTOWER_CLEANUP: "true"
+      WATCHTOWER_POLL_INTERVAL: "3600"
+
+volumes:
+  school-matcher-data:
