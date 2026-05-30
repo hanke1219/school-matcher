@@ -1,3 +1,5 @@
+import json
+from pathlib import Path
 import unittest
 
 from matching_engine import calculate_matching_score
@@ -8,6 +10,9 @@ from refresh_engine import find_pending_exam_fields
 from refresh_engine import find_pending_fields
 from schedule_engine import find_schedule_conflicts
 from schools_data import SCHOOLS
+
+
+ROOT = Path(__file__).resolve().parent
 
 
 class MatchingEngineTest(unittest.TestCase):
@@ -115,6 +120,27 @@ class MatchingEngineTest(unittest.TestCase):
             for session in school["exam_sessions"]:
                 self.assertIn("result_date", session)
                 self.assertIn("procedure_deadline", session)
+
+    def test_kaichi_nihonbashi_deep_report_file_is_bound(self):
+        school = next(item for item in SCHOOLS if item["id"] == "kaichi-nihonbashi")
+        report_id = school["deep_report_id"]
+        report_path = ROOT / "static" / "data" / "reports" / f"{report_id}.json"
+        report = json.loads(report_path.read_text(encoding="utf-8"))
+
+        self.assertTrue(report_path.exists())
+        self.assertEqual(report["schoolId"], school["id"])
+        self.assertIn("summary", report)
+        self.assertIn("visitQuestions", report)
+
+    def test_static_cloudflare_data_files_are_available(self):
+        src_schools = json.loads((ROOT / "src" / "data" / "schools.json").read_text(encoding="utf-8"))
+        public_schools = json.loads((ROOT / "public" / "data" / "schools.json").read_text(encoding="utf-8"))
+        weights = json.loads((ROOT / "src" / "data" / "weights.json").read_text(encoding="utf-8"))
+
+        self.assertEqual(len(src_schools), len(SCHOOLS))
+        self.assertEqual(len(public_schools), len(SCHOOLS))
+        self.assertEqual(weights["childPreference"], 25)
+        self.assertTrue(any(school["reportId"] == "kaichi-nihonbashi" for school in src_schools))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,15 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DecisionApp from "../components/DecisionApp.jsx";
+import schools from "../data/schools.json";
+import weights from "../data/weights.json";
+import kaichiReport from "../data/reports/kaichi-nihonbashi.json";
+
+const reports = {
+  "kaichi-nihonbashi": kaichiReport,
+};
+---
+
+<BaseLayout>
+  <DecisionApp client:load schools={schools} weights={weights} reports={reports} />
+</BaseLayout>

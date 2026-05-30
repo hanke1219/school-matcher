@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+refresh_cache.json
+server.out.log
+server.err.log
+*.log
+.env
+node_modules/
+dist/
+.astro/

@@ -290,6 +290,7 @@ SCHOOLS = [
         "homepage_url": "https://www.kng.ed.jp/",
         "photo_url": "https://kng.ed.jp/wp-content/uploads/2025/11/IB-Discovery-2.png",
         "photo_source_url": "https://www.kng.ed.jp/",
+        "deep_report_id": "kaichi-nihonbashi",
         "description": "探究型の学び、国際バカロレアの教育手法、英語を使う環境を特色とする都心型の中高一貫校。",
         "tags": ["国際化", "英語教育", "探究学習", "中高一貫"],
         "events": [

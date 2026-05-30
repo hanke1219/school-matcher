@@ -24,6 +24,7 @@ const selectedSessionIds = new Set();
 let sessionIndex = new Map();
 let latestResults = [];
 let selectedExamDateFilter = new Set();
+let deepReportCache = new Map();
 let refreshReportLoaded = false;
 let refreshReportVisible = false;
 let noChangeTimer = null;
@@ -262,6 +263,169 @@ function renderExamSessions(school) {
   return wrapper;
 }
 
+function getDeepReportId(school) {
+  return school.deep_report_id || school.reportId || "";
+}
+
+async function loadDeepReport(reportId) {
+  if (!reportId) return null;
+  if (deepReportCache.has(reportId)) return deepReportCache.get(reportId);
+
+  const response = await fetch(`/static/data/reports/${reportId}.json`);
+  if (!response.ok) throw new Error("深度报告读取失败");
+  const report = await response.json();
+  deepReportCache.set(reportId, report);
+  return report;
+}
+
+function createListBlock(title, items, className = "report-list-block") {
+  const section = document.createElement("section");
+  section.className = className;
+  const heading = document.createElement("h4");
+  heading.textContent = title;
+  const list = document.createElement("div");
+  list.className = "mini-list";
+  items.forEach((item) => {
+    const row = document.createElement("div");
+    row.className = "mini-item";
+    if (typeof item === "string") {
+      row.textContent = item;
+    } else {
+      row.innerHTML = `<strong>${item.title || item.label}</strong><span>${item.detail || item.reason}</span>`;
+    }
+    list.appendChild(row);
+  });
+  section.append(heading, list);
+  return section;
+}
+
+function renderReportSummary(report) {
+  const section = document.createElement("section");
+  section.className = "deep-report-summary";
+  section.innerHTML = `
+    <div>
+      <p class="eyebrow">Deep Report</p>
+      <h4>${report.overallMatch?.label || "深度报告あり"}｜${report.overallMatch?.score || "-"} / 100</h4>
+      <p>${report.summary}</p>
+    </div>
+  `;
+
+  const pills = document.createElement("div");
+  pills.className = "report-pill-row";
+  report.fitStudentTypes?.slice(0, 3).forEach((item) => pills.appendChild(createTag(item.label, "report-pill")));
+  if (report.risks?.[0]) pills.appendChild(createTag(`风险: ${report.risks[0].title}`, "report-pill is-risk"));
+  section.appendChild(pills);
+  return section;
+}
+
+function renderRatingCard(title, rating, summary, evidence = [], unknowns = []) {
+  const card = document.createElement("section");
+  card.className = "report-card-block";
+  card.innerHTML = `
+    <div class="report-card-head">
+      <h4>${title}</h4>
+      <span>${rating ?? "-"} / 5</span>
+    </div>
+    <p>${summary}</p>
+  `;
+  if (evidence.length) card.appendChild(createListBlock("确认到的依据", evidence.slice(0, 4), "report-sub-block"));
+  if (unknowns.length) card.appendChild(createListBlock("仍需确认", unknowns.slice(0, 4), "report-sub-block is-pending"));
+  return card;
+}
+
+function renderDeepReport(report) {
+  const wrapper = document.createElement("section");
+  wrapper.className = "deep-report";
+
+  const hero = document.createElement("div");
+  hero.className = "deep-report-hero";
+  hero.innerHTML = `
+    <p class="eyebrow">School Intelligence</p>
+    <h3>${report.title}</h3>
+    <p>${report.summary}</p>
+    <div class="report-score-line">
+      <strong>${report.overallMatch?.score || "-"} / 100</strong>
+      <span>${report.overallMatch?.label || "評価中"}｜${report.familyDecisionAdvice?.categorySuggestion || "未分類"}</span>
+    </div>
+  `;
+
+  const grid = document.createElement("div");
+  grid.className = "report-grid";
+  grid.append(
+    createListBlock("适合的学生类型", report.fitStudentTypes || []),
+    createListBlock("学校优势", report.strengths || []),
+    createListBlock("风险点", report.risks || [], "report-list-block is-risk"),
+    renderRatingCard(
+      "英语教育评价",
+      report.englishEducation?.rating,
+      report.englishEducation?.summary || "",
+      report.englishEducation?.evidence || [],
+      report.englishEducation?.unknowns || [],
+    ),
+    renderRatingCard(
+      "留学/升学路径评价",
+      report.pathways?.studyAbroadRating,
+      report.pathways?.summary || "",
+      report.pathways?.evidence || [],
+      report.pathways?.unknowns || [],
+    ),
+    createListBlock("午餐/便当信息", [report.lunch?.summary || "未确认"].concat(report.lunch?.checkpoints || []), "report-list-block is-pending"),
+    createListBlock("参观时需要确认的问题", report.visitQuestions || [], "report-list-block is-question"),
+    createListBlock("家庭决策建议", [report.familyDecisionAdvice?.summary || ""].concat(report.familyDecisionAdvice?.recommendedNextActions || []), "report-list-block is-advice"),
+  );
+
+  wrapper.append(hero, grid);
+  return wrapper;
+}
+
+function activateCardTab(card, tabName) {
+  card.querySelectorAll("[data-card-tab]").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.cardTab === tabName);
+  });
+  card.querySelectorAll("[data-card-panel]").forEach((panel) => {
+    panel.hidden = panel.dataset.cardPanel !== tabName;
+  });
+}
+
+function createCardTabs(card, tabNames) {
+  const tabs = document.createElement("div");
+  tabs.className = "card-tabs";
+  tabNames.forEach(([key, label]) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.dataset.cardTab = key;
+    button.textContent = label;
+    button.addEventListener("click", () => activateCardTab(card, key));
+    tabs.appendChild(button);
+  });
+  return tabs;
+}
+
+function createCardPanel(name, hidden = false) {
+  const panel = document.createElement("section");
+  panel.className = "card-panel";
+  panel.dataset.cardPanel = name;
+  panel.hidden = hidden;
+  return panel;
+}
+
+async function attachDeepReport(school, summaryMount, reportPanel) {
+  const reportId = getDeepReportId(school);
+  if (!reportId) return;
+
+  summaryMount.replaceChildren(createTag("深度报告读取中", "point"));
+  reportPanel.replaceChildren(createTag("深度报告读取中", "point"));
+
+  try {
+    const report = await loadDeepReport(reportId);
+    summaryMount.replaceChildren(renderReportSummary(report));
+    reportPanel.replaceChildren(renderDeepReport(report));
+  } catch (error) {
+    summaryMount.replaceChildren(createTag(error.message, "reason"));
+    reportPanel.replaceChildren(createTag(error.message, "reason"));
+  }
+}
+
 function renderCards(results) {
   latestResults = results;
   indexSessions(results);
@@ -338,8 +502,23 @@ function renderCards(results) {
       eventList.appendChild(createLinkTag(label, event.source_url, "event"));
     });
 
-    card.append(photo, head, scoreDetails, description, actionRow, tagList, eventList, renderExamSessions(school));
+    const hasReport = Boolean(getDeepReportId(school));
+    const tabs = createCardTabs(card, hasReport ? [["overview", "概要"], ["exams", "入試日程"], ["report", "深度报告"]] : [["overview", "概要"], ["exams", "入試日程"]]);
+
+    const overviewPanel = createCardPanel("overview");
+    const examPanel = createCardPanel("exams", true);
+    const reportPanel = createCardPanel("report", true);
+    const reportSummaryMount = document.createElement("div");
+    reportSummaryMount.className = "report-summary-mount";
+
+    overviewPanel.append(description, actionRow, tagList, eventList, reportSummaryMount);
+    examPanel.appendChild(renderExamSessions(school));
+    if (hasReport) attachDeepReport(school, reportSummaryMount, reportPanel);
+
+    card.append(photo, head, scoreDetails, tabs, overviewPanel, examPanel);
+    if (hasReport) card.appendChild(reportPanel);
     cards.appendChild(card);
+    activateCardTab(card, "overview");
   });
 
   renderPlan();

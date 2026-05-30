@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "shibuya-makuhari",
+    "nameJa": "渋谷教育学園幕張中学校",
+    "nameZh": "渋谷教育学園幕張中学校",
+    "type": "共学",
+    "homepageUrl": "https://www.shibumaku.jp/",
+    "photoUrl": "https://www.shibumaku.jp/wp-content/uploads/2026/05/IMG_7489-1024x682.jpg",
+    "photoSourceUrl": "https://www.shibumaku.jp/",
+    "address": "千葉県千葉市美浜区若葉1-3",
+    "nearestStation": "海浜幕張駅",
+    "commuteMinutes": 72,
+    "hensachiAverage80": 64.5,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "「自調自考」を教育目標に掲げ、海外留学・海外大学進学サポート、帰国生・留学生との交流など、国際教育を重視する中高一貫校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "留学機会",
+      "探究学習",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": true,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "中学校入試説明会",
+        "date": "2026-11-07",
+        "reservationStart": "未定",
+        "eventType": "入試説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.shibumaku.jp/admissions/meeting-2-3-2/",
+        "checkStatus": "要再確認",
+        "note": "2026年度ページ公開後に更新"
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "shibuya-makuhari-jan22-am",
+        "name": "第1次入学試験",
+        "examDate": "2027-01-22",
+        "slot": "AM",
+        "sapixGirls80": 64,
+        "sapixGirls50": 61,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.shibumaku.jp/admissions/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": "公式2027募集要項公開後に出願期間を確認"
+      },
+      {
+        "id": "shibuya-makuhari-feb02-am",
+        "name": "第2次入学試験",
+        "examDate": "2027-02-02",
+        "slot": "AM",
+        "sapixGirls80": 65,
+        "sapixGirls50": 62,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.shibumaku.jp/admissions/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": "公式2027募集要項公開後に出願期間を確認"
+      }
+    ],
+    "reportId": "",
+    "notes": "2027年度募集要項・説明会詳細は公式公開後に月次更新対象。"
+  },
+  {
+    "id": "shibuya-shibuya",
+    "nameJa": "渋谷教育学園渋谷中学高等学校",
+    "nameZh": "渋谷教育学園渋谷中学高等学校",
+    "type": "共学",
+    "homepageUrl": "https://www.shibushibu.jp/",
+    "photoUrl": "https://www.shibushibu.jp/wp-content/uploads/2021/08/shibu_top_KV03.jpg",
+    "photoSourceUrl": "https://www.shibushibu.jp/",
+    "address": "東京都渋谷区渋谷1-21-18",
+    "nearestStation": "渋谷駅",
+    "commuteMinutes": 65,
+    "hensachiAverage80": 64.3,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "「自調自考」を土台に、国際理解教育、第二外国語、海外研修、模擬国連などを通して多様な世界と出会う機会を設けている学校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "留学機会",
+      "探究学習",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": true,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "飛龍祭",
+        "date": "2026-09-11",
+        "reservationStart": "2026-07-中旬頃",
+        "eventType": "文化祭",
+        "timeSlot": "12:45-15:30",
+        "sourceUrl": "https://www.shibushibu.jp/admission/event_schedule.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "飛龍祭",
+        "date": "2026-09-12",
+        "reservationStart": "2026-07-中旬頃",
+        "eventType": "文化祭",
+        "timeSlot": "9:00-12:00 / 12:45-15:30",
+        "sourceUrl": "https://www.shibushibu.jp/admission/event_schedule.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第1回 学校説明会",
+        "date": "2026-10-17",
+        "reservationStart": "2026-09-中旬頃",
+        "eventType": "学校説明会",
+        "timeSlot": "14:15-15:30",
+        "sourceUrl": "https://www.shibushibu.jp/admission/event_schedule.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第2回 学校説明会",
+        "date": "2026-11-21",
+        "reservationStart": "2026-09-中旬頃",
+        "eventType": "学校説明会",
+        "timeSlot": "14:15-15:30",
+        "sourceUrl": "https://www.shibushibu.jp/admission/event_schedule.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "shibuya-shibuya-feb01-am",
+        "name": "第1回入学試験",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 63,
+        "sapixGirls50": 62,
+        "applicationStart": "2027-01-10 10:00",
+        "applicationEnd": "2027-01-28 14:59",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.shibushibu.jp/admission/detail.html",
+        "checkStatus": "公式日程確認・偏差値要校対",
+        "note": ""
+      },
+      {
+        "id": "shibuya-shibuya-feb02-am",
+        "name": "第2回入学試験",
+        "examDate": "2027-02-02",
+        "slot": "AM",
+        "sapixGirls80": 64,
+        "sapixGirls50": 63,
+        "applicationStart": "2027-01-10 10:00",
+        "applicationEnd": "2027-01-28 14:59",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.shibushibu.jp/admission/detail.html",
+        "checkStatus": "公式日程確認・偏差値要校対",
+        "note": ""
+      },
+      {
+        "id": "shibuya-shibuya-feb05-am",
+        "name": "第3回入学試験",
+        "examDate": "2027-02-05",
+        "slot": "AM",
+        "sapixGirls80": 66,
+        "sapixGirls50": 64,
+        "applicationStart": "2027-01-10 10:00",
+        "applicationEnd": "2027-02-04 23:59",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.shibushibu.jp/admission/detail.html",
+        "checkStatus": "公式日程確認・偏差値要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "出願期間は公式募集要項で確認済み。偏差値はSAPIX女子表からの転記候補。"
+  },
+  {
+    "id": "hiroo-gakuen",
+    "nameJa": "広尾学園中学校",
+    "nameZh": "広尾学園中学校",
+    "type": "共学",
+    "homepageUrl": "https://www.hiroogakuen.ed.jp/",
+    "photoUrl": "https://www.hiroogakuen.ed.jp/img/topimg/topimg-1773366142137660.jpg",
+    "photoSourceUrl": "https://www.hiroogakuen.ed.jp/",
+    "address": "東京都港区南麻布5-1-14",
+    "nearestStation": "広尾駅",
+    "commuteMinutes": 61,
+    "hensachiAverage80": 59.2,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "本科、医進・サイエンス、インターナショナルの3コースを設置。国際教育、理系教育、先端的なキャリア教育を比較しやすい学校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "留学機会",
+      "医進",
+      "サイエンス",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": true,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "第2回授業体験会・学校説明会",
+        "date": "2026-09-06",
+        "reservationStart": "2026-08-08 10:00",
+        "eventType": "授業体験会",
+        "timeSlot": "午前 / 午後",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_setumeikai.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第3回授業体験会・学校説明会",
+        "date": "2026-10-11",
+        "reservationStart": "2026-09-19 10:00",
+        "eventType": "授業体験会",
+        "timeSlot": "午前 / 午後",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_setumeikai.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第1回入試傾向説明会",
+        "date": "2026-11-09",
+        "reservationStart": "2026-10-17 10:00",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "午前 / 午後",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_setumeikai.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第2回入試傾向説明会",
+        "date": "2026-12-13",
+        "reservationStart": "2026-11-21 10:00",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "午前 / 午後",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_setumeikai.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "hiroo-gakuen-feb01-am-honka1",
+        "name": "本科 第1回",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 58,
+        "sapixGirls50": 55,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-gakuen-feb01-pm-honka2",
+        "name": "本科 第2回",
+        "examDate": "2027-02-01",
+        "slot": "PM",
+        "sapixGirls80": 59,
+        "sapixGirls50": 57,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-gakuen-feb01-pm-isg2",
+        "name": "インターナショナルSG 第2回",
+        "examDate": "2027-02-01",
+        "slot": "PM",
+        "sapixGirls80": 61,
+        "sapixGirls50": 58,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-gakuen-feb02-pm-med",
+        "name": "医進・サイエンス回",
+        "examDate": "2027-02-02",
+        "slot": "PM",
+        "sapixGirls80": 62,
+        "sapixGirls50": 58,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-gakuen-feb05-am-honka3",
+        "name": "本科 第3回",
+        "examDate": "2027-02-05",
+        "slot": "AM",
+        "sapixGirls80": 57,
+        "sapixGirls50": 55,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-gakuen-feb05-am-isg3",
+        "name": "インターナショナルSG 第3回",
+        "examDate": "2027-02-05",
+        "slot": "AM",
+        "sapixGirls80": 58,
+        "sapixGirls50": 55,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.hiroogakuen.ed.jp/junior/j_boshuyoko.html",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "説明会日程は公式掲載から転記。入試日程はSAPIX表ベースで、公式募集要項の最新版公開後に校対。"
+  },
+  {
+    "id": "ichikawa",
+    "nameJa": "市川中学校",
+    "nameZh": "市川中学校",
+    "type": "共学",
+    "homepageUrl": "https://www.ichigaku.ac.jp/",
+    "photoUrl": "https://www.ichigaku.ac.jp/html/top/images/bg_features01.jpg",
+    "photoSourceUrl": "https://www.ichigaku.ac.jp/",
+    "address": "千葉県市川市本北方2-38-1",
+    "nearestStation": "本八幡駅",
+    "commuteMinutes": 54,
+    "hensachiAverage80": 58.5,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "SSH、国際研修、土曜講座、市川アカデメイアなど、教科学習と探究・国際理解の両面を確認しやすい中高一貫校。",
+    "tags": [
+      "英語教育",
+      "理科強",
+      "探究学習",
+      "中高一貫",
+      "国際化"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 3,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": false,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "学校説明会・入試説明会",
+        "date": "2026-10-01",
+        "reservationStart": "未定",
+        "eventType": "説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.ichigaku.ac.jp/junior-exam/",
+        "checkStatus": "要再確認",
+        "note": "公式イベントページ更新後に詳細化"
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "ichikawa-jan20-am",
+        "name": "第1回入学試験",
+        "examDate": "2027-01-20",
+        "slot": "AM",
+        "sapixGirls80": 58,
+        "sapixGirls50": 55,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.ichigaku.ac.jp/junior-exam/guideline/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "ichikawa-feb04-am",
+        "name": "第2回入学試験",
+        "examDate": "2027-02-04",
+        "slot": "AM",
+        "sapixGirls80": 59,
+        "sapixGirls50": 56,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.ichigaku.ac.jp/junior-exam/guideline/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "2027年度募集要項PDFの細部は月次更新時に再確認。"
+  },
+  {
+    "id": "waseda-jitsugyo",
+    "nameJa": "早稲田実業学校中等部",
+    "nameZh": "早稲田実業学校中等部",
+    "type": "共学",
+    "homepageUrl": "https://www.wasedajg.ed.jp/",
+    "photoUrl": "https://www.wasedajg.ed.jp/wp/wp-content/themes/waseda/assets/images/common/ogp.jpg",
+    "photoSourceUrl": "https://www.wasedajg.ed.jp/",
+    "address": "東京都国分寺市本町1-2-1",
+    "nearestStation": "国分寺駅",
+    "commuteMinutes": 82,
+    "hensachiAverage80": 58,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "早稲田大学系属校として、初等部・中等部・高等部を置き、豊かな学識と表現力を持つ次世代のリーダー育成を掲げる学校。",
+    "tags": [
+      "大学附属",
+      "英語教育",
+      "探究学習",
+      "中高一貫",
+      "進学実績"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": false,
+      "hasOverseasUniversityPath": false,
+      "domesticUniversitySupport": "strong",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "オープンスクール",
+        "date": "2026-07-11",
+        "reservationStart": "詳細後日掲載",
+        "eventType": "オープンスクール",
+        "timeSlot": "10:00-15:30",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/explain-s/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "いなほ祭",
+        "date": "2026-10-10",
+        "reservationStart": "詳細後日掲載",
+        "eventType": "文化祭",
+        "timeSlot": "10:00-16:00",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/explain-s/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "いなほ祭",
+        "date": "2026-10-11",
+        "reservationStart": "詳細後日掲載",
+        "eventType": "文化祭",
+        "timeSlot": "10:00-16:00",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/explain-s/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "中等部 学校説明会",
+        "date": "2026-10-18",
+        "reservationStart": "詳細後日掲載",
+        "eventType": "学校説明会",
+        "timeSlot": "13:00 / 14:30",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/explain-s/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "中等部 学校説明会",
+        "date": "2026-10-25",
+        "reservationStart": "詳細後日掲載",
+        "eventType": "学校説明会",
+        "timeSlot": "9:30 / 11:00",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/explain-s/",
+        "checkStatus": "公式確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "waseda-jitsugyo-feb01-full",
+        "name": "中等部入試",
+        "examDate": "2027-02-01",
+        "slot": "FULL",
+        "sapixGirls80": 58,
+        "sapixGirls50": 55,
+        "applicationStart": "2026-12-20",
+        "applicationEnd": "2027-01-10",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.wasedajg.ed.jp/junior/exam-s/application-s/",
+        "checkStatus": "公式日程確認・偏差値要校対",
+        "note": "試験時間帯は仮にFULL。実際の拘束時間は要確認"
+      }
+    ],
+    "reportId": "",
+    "notes": "試験日は公式募集概要で確認済み。SAPIX回次表示はユーザー校対待ち。"
+  },
+  {
+    "id": "sakae-higashi",
+    "nameJa": "栄東中学校・高等学校",
+    "nameZh": "栄東中学校・高等学校",
+    "type": "共学",
+    "homepageUrl": "https://www.sakaehigashi.ed.jp/index.html",
+    "photoUrl": "https://www.sakaehigashi.ed.jp/cms_img/ad2a253a53786fd1e30dde52fef39f21f53f72d8.jpg",
+    "photoSourceUrl": "https://www.sakaehigashi.ed.jp/index.html",
+    "address": "埼玉県さいたま市見沼区砂町2-77",
+    "nearestStation": "東大宮駅",
+    "commuteMinutes": 45,
+    "hensachiAverage80": 56,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "「生きる力」を育むことを掲げ、アクティブ・ラーニング、国際部、大学合格実績を比較しやすい埼玉の中高一貫校。",
+    "tags": [
+      "英語教育",
+      "理科強",
+      "探究学習",
+      "中高一貫",
+      "進学実績"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": false,
+      "hasOverseasUniversityPath": false,
+      "domesticUniversitySupport": "strong",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "第1回 学校説明会",
+        "date": "2026-05-30",
+        "reservationStart": "2026-05-11 10:00",
+        "eventType": "学校説明会",
+        "timeSlot": "10:00-",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/j_event.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第2回 学校説明会",
+        "date": "2026-07-18",
+        "reservationStart": "2026-05-31 10:00",
+        "eventType": "学校説明会",
+        "timeSlot": "10:00-",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/j_event.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "入試説明会",
+        "date": "2026-11-21",
+        "reservationStart": "2026-10-12 10:00",
+        "eventType": "入試説明会",
+        "timeSlot": "10:00-",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/j_event.html",
+        "checkStatus": "公式確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "sakae-higashi-dec10-am",
+        "name": "東大・難関大クラス 12月入試",
+        "examDate": "2026-12-10",
+        "slot": "AM",
+        "sapixGirls80": 54,
+        "sapixGirls50": 50,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": "ユーザー例に基づく日付。公式募集要項で要確認"
+      },
+      {
+        "id": "sakae-higashi-jan11-am-todai",
+        "name": "東大特待4科",
+        "examDate": "2027-01-11",
+        "slot": "AM",
+        "sapixGirls80": 59,
+        "sapixGirls50": 57,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "sakae-higashi-jan12-pm-math",
+        "name": "東大特待算数1科",
+        "examDate": "2027-01-12",
+        "slot": "PM",
+        "sapixGirls80": 59,
+        "sapixGirls50": 58,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "sakae-higashi-jan16-am-nankan",
+        "name": "難関大クラス",
+        "examDate": "2027-01-16",
+        "slot": "AM",
+        "sapixGirls80": 52,
+        "sapixGirls50": 48,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.sakaehigashi.ed.jp/exam/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "12月入試の回次名・日付はユーザー例を優先入力。公式募集要項で最優先校対。"
+  },
+  {
+    "id": "hiroo-koishikawa",
+    "nameJa": "広尾学園小石川中学校",
+    "nameZh": "広尾学園小石川中学校",
+    "type": "共学",
+    "homepageUrl": "https://hiroo-koishikawa.ed.jp/",
+    "photoUrl": "https://hiroo-koishikawa.ed.jp/hk/wp-content/themes/hk/assets/img/top/kv01.jpg",
+    "photoSourceUrl": "https://hiroo-koishikawa.ed.jp/",
+    "address": "東京都文京区本駒込2-29-1",
+    "nearestStation": "千石駅",
+    "commuteMinutes": 58,
+    "hensachiAverage80": 54.8,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "インターナショナルコースと本科コースを設け、英語で学ぶ環境、キャリア教育、海外プログラムを重視する中高一貫校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "留学機会",
+      "探究学習",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": true,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "第1回中学授業体験会",
+        "date": "2026-06-20",
+        "reservationStart": "2026-06-01 10:00",
+        "eventType": "授業体験会",
+        "timeSlot": "9:30 / 14:00",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-consultation",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "第2回中学授業体験会",
+        "date": "2026-09-12",
+        "reservationStart": "受付開始待ち",
+        "eventType": "授業体験会",
+        "timeSlot": "9:30 / 14:00",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-consultation",
+        "checkStatus": "要再確認",
+        "note": ""
+      },
+      {
+        "name": "学校説明会",
+        "date": "2026-10-10",
+        "reservationStart": "受付開始待ち",
+        "eventType": "学校説明会",
+        "timeSlot": "10:00",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-consultation",
+        "checkStatus": "要再確認",
+        "note": ""
+      },
+      {
+        "name": "第1回入試傾向説明会",
+        "date": "2026-11-07",
+        "reservationStart": "受付開始待ち",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "午前 / 午後",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-consultation",
+        "checkStatus": "要再確認",
+        "note": ""
+      },
+      {
+        "name": "第2回入試傾向説明会",
+        "date": "2026-12-05",
+        "reservationStart": "受付開始待ち",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "午前",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-consultation",
+        "checkStatus": "要再確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "hiroo-koishikawa-feb01-am-1",
+        "name": "第1回",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 51,
+        "sapixGirls50": 49,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-nyushi",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-koishikawa-feb01-pm-2",
+        "name": "第2回",
+        "examDate": "2027-02-01",
+        "slot": "PM",
+        "sapixGirls80": 55,
+        "sapixGirls50": 52,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-nyushi",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-koishikawa-feb02-pm-3",
+        "name": "第3回",
+        "examDate": "2027-02-02",
+        "slot": "PM",
+        "sapixGirls80": 56,
+        "sapixGirls50": 53,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-nyushi",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "hiroo-koishikawa-feb03-pm-4",
+        "name": "第4回",
+        "examDate": "2027-02-03",
+        "slot": "PM",
+        "sapixGirls80": 57,
+        "sapixGirls50": 55,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://hiroo-koishikawa.ed.jp/exam/junior-nyushi",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "説明会は公式ページ候補。2027募集要項公開後に試験日程・出願期間を更新。"
+  },
+  {
+    "id": "mita-international",
+    "nameJa": "三田国際科学学園中学校",
+    "nameZh": "三田国際科学学園中学校",
+    "type": "共学",
+    "homepageUrl": "https://www.mita-is.ed.jp/",
+    "photoUrl": "https://www.mita-is.ed.jp/wp-content/themes/mita-is-theme/assets/is_img.png",
+    "photoSourceUrl": "https://www.mita-is.ed.jp/",
+    "address": "東京都世田谷区用賀2-16-1",
+    "nearestStation": "用賀駅",
+    "commuteMinutes": 75,
+    "hensachiAverage80": 52.5,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "「世界標準の教育」を実践し、インターナショナルサイエンスクラス、メディカルサイエンステクノロジークラスなどを設置する学校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "留学機会",
+      "サイエンス",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 4,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": true,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "学校説明会",
+        "date": "2026-06-20",
+        "reservationStart": "2026-05-21 12:00",
+        "eventType": "学校説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "学校説明会",
+        "date": "2026-07-11",
+        "reservationStart": "約1ヶ月前",
+        "eventType": "学校説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "学校説明会",
+        "date": "2026-07-25",
+        "reservationStart": "約1ヶ月前",
+        "eventType": "学校説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "入試傾向説明会",
+        "date": "2026-10-10",
+        "reservationStart": "準備中",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "入試傾向説明会",
+        "date": "2026-11-14",
+        "reservationStart": "準備中",
+        "eventType": "入試傾向説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      },
+      {
+        "name": "MITA International Festival 2026",
+        "date": "2026-10-31",
+        "reservationStart": "準備中",
+        "eventType": "文化祭",
+        "timeSlot": "10/31・11/1",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/visits/",
+        "checkStatus": "公式確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "mita-international-feb01-am-isc",
+        "name": "第1回 ISC",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 49,
+        "sapixGirls50": 48,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb01-am-ic",
+        "name": "第1回 IC",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 47,
+        "sapixGirls50": 46,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb02-am-isc",
+        "name": "第2回 ISC",
+        "examDate": "2027-02-02",
+        "slot": "AM",
+        "sapixGirls80": 57,
+        "sapixGirls50": 56,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb02-am-ic",
+        "name": "第2回 IC",
+        "examDate": "2027-02-02",
+        "slot": "AM",
+        "sapixGirls80": 52,
+        "sapixGirls50": 49,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb03-am-isc",
+        "name": "第3回 ISC",
+        "examDate": "2027-02-03",
+        "slot": "AM",
+        "sapixGirls80": 55,
+        "sapixGirls50": 52,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb03-am-ic",
+        "name": "第3回 IC",
+        "examDate": "2027-02-03",
+        "slot": "AM",
+        "sapixGirls80": 51,
+        "sapixGirls50": 48,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb04-pm-mst",
+        "name": "MST入試",
+        "examDate": "2027-02-04",
+        "slot": "PM",
+        "sapixGirls80": 55,
+        "sapixGirls50": 53,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "mita-international-feb05-pm-4",
+        "name": "第4回",
+        "examDate": "2027-02-05",
+        "slot": "PM",
+        "sapixGirls80": 54,
+        "sapixGirls50": 53,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://www.mita-is.ed.jp/admissions/regular/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "学校説明会は公式ページ確認済み。2027一般入試要項公開後に出願期間を更新。"
+  },
+  {
+    "id": "kaichi-nihonbashi",
+    "nameJa": "開智日本橋学園中学校",
+    "nameZh": "開智日本橋学園中学校",
+    "type": "共学",
+    "homepageUrl": "https://www.kng.ed.jp/",
+    "photoUrl": "https://kng.ed.jp/wp-content/uploads/2025/11/IB-Discovery-2.png",
+    "photoSourceUrl": "https://www.kng.ed.jp/",
+    "address": "東京都中央区日本橋馬喰町2-7-6",
+    "nearestStation": "浅草橋駅",
+    "commuteMinutes": 46,
+    "hensachiAverage80": 48,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "探究型の学び、国際バカロレアの教育手法、英語を使う環境を特色とする都心型の中高一貫校。",
+    "tags": [
+      "国際化",
+      "英語教育",
+      "探究学習",
+      "中高一貫"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 3,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": false,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "第4回学校説明会",
+        "date": "2026-01-10",
+        "reservationStart": "2025-12-10",
+        "eventType": "学校説明会",
+        "timeSlot": "10:30 / 12:30",
+        "sourceUrl": "https://kng.ed.jp/schedule/",
+        "checkStatus": "参考",
+        "note": "2026年度参考。新年度日程公開後に更新"
+      },
+      {
+        "name": "中学入試報告会",
+        "date": "2026-02-28",
+        "reservationStart": "2026-01-28 18:00",
+        "eventType": "入試報告会",
+        "timeSlot": "10:30 / 12:30",
+        "sourceUrl": "https://kng.ed.jp/schedule/",
+        "checkStatus": "参考",
+        "note": "2026年度参考。新年度日程公開後に更新"
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "kaichi-nihonbashi-feb01-am-1",
+        "name": "第1回",
+        "examDate": "2027-02-01",
+        "slot": "AM",
+        "sapixGirls80": 46,
+        "sapixGirls50": 42,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb01-pm-2",
+        "name": "第2回",
+        "examDate": "2027-02-01",
+        "slot": "PM",
+        "sapixGirls80": 51,
+        "sapixGirls50": 47,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb02-pm-3",
+        "name": "第3回",
+        "examDate": "2027-02-02",
+        "slot": "PM",
+        "sapixGirls80": 49,
+        "sapixGirls50": 45,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb03-am-4",
+        "name": "第4回",
+        "examDate": "2027-02-03",
+        "slot": "AM",
+        "sapixGirls80": 47,
+        "sapixGirls50": 44,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb03-pm-math",
+        "name": "特待生算数単科",
+        "examDate": "2027-02-03",
+        "slot": "PM",
+        "sapixGirls80": 52,
+        "sapixGirls50": 51,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb04-pm-scholar4",
+        "name": "特待生4科",
+        "examDate": "2027-02-04",
+        "slot": "PM",
+        "sapixGirls80": 49,
+        "sapixGirls50": 47,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-nihonbashi-feb05-am-heigan",
+        "name": "併願",
+        "examDate": "2027-02-05",
+        "slot": "AM",
+        "sapixGirls80": 42,
+        "sapixGirls50": 38,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://kng.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "kaichi-nihonbashi",
+    "notes": "イベントは参考年度。最新イベント日程の公開後に月次更新。"
+  },
+  {
+    "id": "kaichi",
+    "nameJa": "開智中学・高等学校",
+    "nameZh": "開智中学・高等学校",
+    "type": "共学",
+    "homepageUrl": "https://ikkanbu.kaichigakuen.ed.jp/",
+    "photoUrl": "https://ikkanbu.kaichigakuen.ed.jp/wp-content/uploads/2026/05/%E4%BD%93%E8%82%B2%E7%A5%AD1-250x250.jpg",
+    "photoSourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/",
+    "address": "埼玉県さいたま市岩槻区徳力186",
+    "nearestStation": "東岩槻駅",
+    "commuteMinutes": 48,
+    "hensachiAverage80": 48,
+    "hensachiBasis": "SAPIX女子80% 回次平均",
+    "description": "創発クラスと4コース、探究、フィールドワーク、ICT活用、国際バカロレア、国際英語教育などを掲げる中高一貫校。",
+    "tags": [
+      "探究学習",
+      "理科強",
+      "英語教育",
+      "中高一貫",
+      "国際化"
+    ],
+    "aspirationCategory": "未分類",
+    "scores": {
+      "childPreference": 3,
+      "englishEducation": 5,
+      "pathway": 3,
+      "atmosphere": 4
+    },
+    "lunch": {
+      "hasCafeteria": null,
+      "requiresBento": null,
+      "satisfaction": null,
+      "note": "未確認"
+    },
+    "pathways": {
+      "hasStudyAbroadPath": false,
+      "hasOverseasUniversityPath": true,
+      "domesticUniversitySupport": "unknown",
+      "note": "公開情報と家庭確認で更新"
+    },
+    "family": {
+      "parentNote": "",
+      "childFeedback": ""
+    },
+    "events": [
+      {
+        "name": "学校説明会",
+        "date": "2026-06-07",
+        "reservationStart": "2026-05-18",
+        "eventType": "学校説明会",
+        "timeSlot": "未定",
+        "sourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/admission/",
+        "checkStatus": "要再確認",
+        "note": ""
+      },
+      {
+        "name": "体験授業",
+        "date": "2026-08-23",
+        "reservationStart": "2026-07-30",
+        "eventType": "体験授業",
+        "timeSlot": "未定",
+        "sourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/admission/",
+        "checkStatus": "要再確認",
+        "note": ""
+      }
+    ],
+    "examSessions": [
+      {
+        "id": "kaichi-jan10-am-souhatsu",
+        "name": "創発クラス特待A",
+        "examDate": "2027-01-10",
+        "slot": "AM",
+        "sapixGirls80": 51,
+        "sapixGirls50": 48,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-jan11-am-math",
+        "name": "算数特待",
+        "examDate": "2027-01-11",
+        "slot": "AM",
+        "sapixGirls80": 51,
+        "sapixGirls50": 50,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      },
+      {
+        "id": "kaichi-jan12-am-1",
+        "name": "1回",
+        "examDate": "2027-01-12",
+        "slot": "AM",
+        "sapixGirls80": 42,
+        "sapixGirls50": 38,
+        "applicationStart": "未定",
+        "applicationEnd": "未定",
+        "resultDate": "未定",
+        "procedureDeadline": "未定",
+        "sourceUrl": "https://ikkanbu.kaichigakuen.ed.jp/admission/",
+        "checkStatus": "SAPIX転記・要校対",
+        "note": ""
+      }
+    ],
+    "reportId": "",
+    "notes": "2027年度公式募集要項公開後に出願期間・回次名を再確認。"
+  }
+]

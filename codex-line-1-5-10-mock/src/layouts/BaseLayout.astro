@@ -1,0 +1,18 @@
+---
+import "../styles/global.css";
+
+const { title = "日本中学参观与志望校决策助手" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="日本中学参观、志望校分类、家庭评分与综合匹配度排序工具。" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

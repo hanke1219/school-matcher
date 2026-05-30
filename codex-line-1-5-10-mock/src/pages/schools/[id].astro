@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import schools from "../../data/schools.json";
+import kaichiReport from "../../data/reports/kaichi-nihonbashi.json";
+
+export function getStaticPaths() {
+  return schools.map((school) => ({
+    params: { id: school.id },
+    props: { school },
+  }));
+}
+
+const { school } = Astro.props;
+const report = school.reportId === "kaichi-nihonbashi" ? kaichiReport : null;
+---
+
+<BaseLayout title={`${school.nameJa} | 日本中学参观与志望校决策助手`}>
+  <main class="static-detail">
+    <a class="back-link" href="/">← 首页へ</a>
+    <section class="static-hero">
+      <img src={school.photoUrl} alt={`${school.nameJa} 写真`} />
+      <div>
+        <p class="eyebrow">School Detail / 学校详情</p>
+        <h1>{school.nameJa}</h1>
+        <p>{school.description}</p>
+        <a class="ghost-link" href={school.homepageUrl} target="_blank" rel="noreferrer">公式サイト</a>
+      </div>
+    </section>
+    <section class="static-grid">
+      <article class="info-card">
+        <h2>基本情報</h2>
+        <p>{school.address}</p>
+        <p>{school.nearestStation} / 通学 {school.commuteMinutes} 分</p>
+      </article>
+      <article class="info-card">
+        <h2>午餐・便当</h2>
+        <p>{school.lunch.note}</p>
+      </article>
+      {report && (
+        <article class="report-panel">
+          <p class="eyebrow">Deep Report / 深度报告</p>
+          <h2>{report.title}</h2>
+          <p>{report.summary}</p>
+        </article>
+      )}
+    </section>
+  </main>
+</BaseLayout>
